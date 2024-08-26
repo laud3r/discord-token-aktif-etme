@@ -69,5 +69,5 @@ sqarlex6.on('ready', ()=>{
 sqarlex7.on('ready', ()=>{
   sqarlex7.channels.get('ses kanal id').join()
   console.log(`[Aktif] - ${sqarlex7.user.tag} 7 numaralı hesap aktif.`) 
-  sqarlex7.user.setActivity('Twitch', {type: "STREAMING", url: "https://www.twitch.tv/sqarlex223334444555556666667777777"});
+  sqarlex7.user.setActivity('Twitch', {type: "STREAMING", url: ""});
 });
